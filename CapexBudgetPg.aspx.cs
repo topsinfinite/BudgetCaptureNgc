@@ -739,6 +739,7 @@ namespace BudgetCapture
             }
             catch (Exception ex)
             {
+                throw ex;
             }
         }
 
